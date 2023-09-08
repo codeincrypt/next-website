@@ -9,7 +9,9 @@ export default function Courses() {
     setDatalist(response);
   };
 
-  useEffect(() => fetchData(), []);
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return (
     <div>

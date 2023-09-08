@@ -1,0 +1,22 @@
+[
+  {
+    "name":"HTML",
+    "slug":"html"
+  },
+  {
+    "name":"CSS",
+    "slug":"css"
+  },
+  {
+    "name":"Javascript",
+    "slug":"javascript"
+  },
+  {
+    "name":"Bootstrap",
+    "slug":"bootstrap"
+  },
+  {
+    "name":"ReactJS",
+    "slug":"react-js"
+  }
+]

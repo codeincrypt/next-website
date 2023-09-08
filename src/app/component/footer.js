@@ -1,12 +1,34 @@
-import Image from "next/image";
-
+"use client";
+import { useState, useEffect } from "react";
+import language from "../../json/language.json";
+import dsa from "../../json/dsaconcept.json";
+import webdev from "../../json/webdevelopment.json";
 export default function Footer() {
+  const [languageData, setLanguageData] = useState([]);
+  const [dsaData, setDsaData] = useState([]);
+  const [webdevData, setWebdevData] = useState([]);
+  const fetchData = async () => {
+    const response = language;
+    // const data = await response.json();
+    setLanguageData(response);
+    setDsaData(dsa);
+    setWebdevData(webdev);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div className="col-lg-12">
       <footer className="p-5">
         <div className="row">
           <div className="col-6 col-md-2 mb-3">
-            <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogoDark.png" width={200} alt="gfg logo" />
+            <img
+              src="https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogoDark.png"
+              width={200}
+              alt="gfg logo"
+            />
           </div>
 
           <div className="col-6 col-md-2 mb-3">
@@ -14,128 +36,83 @@ export default function Footer() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Home
+                  About Us
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Features
+                  Legal
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  Pricing
+                  Careers
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  FAQs
+                  In Media
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-muted">
-                  About
+                  Contact Us
                 </a>
               </li>
             </ul>
           </div>
 
           <div className="col-6 col-md-2 mb-3">
-            <h5>Languages</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  About
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-6 col-md-2 mb-3">
-            <h5>Web Development</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  About
-                </a>
-              </li>
-            </ul>
+            <h5>Language</h5>
+            {languageData.map((item, index) => (
+              <ul className="nav flex-column" key={index}>
+                <li className="nav-item mb-2">
+                  <a
+                    href={`languages/${item.slug}`}
+                    className="nav-link p-0 text-muted"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              </ul>
+            ))}
           </div>
 
           <div className="col-6 col-md-2 mb-3">
             <h5>DSA Concept</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">
-                  About
-                </a>
-              </li>
-            </ul>
+            {dsaData.map((item, index) => (
+              <ul className="nav flex-column" key={index}>
+                <li className="nav-item mb-2">
+                  <a
+                    href={`/${item.slug}`}
+                    className="nav-link p-0 text-muted"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              </ul>
+            ))}
+          </div>
+
+          <div className="col-6 col-md-2 mb-3">
+            <h5>Web Development</h5>
+            {webdevData.map((item, index) => (
+              <ul className="nav flex-column" key={index}>
+                <li className="nav-item mb-2">
+                  <a
+                    href={`languages/${item.slug}`}
+                    className="nav-link p-0 text-muted"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              </ul>
+            ))}
           </div>
 
         </div>
 
-        <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <div className="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
           <p className="text-center">Design by codeincrypt.</p>
           <p className="small">Exploring & learning Next.js</p>
           <ul className="list-unstyled d-flex">

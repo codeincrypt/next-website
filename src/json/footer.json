@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "section":"Company",
+      "data" : [
+        {
+          "name":"About Us",
+          "link":"/about-us"
+        },
+        {
+          "name":"Legal",
+          "link":"/legal"
+        },
+        {
+          "name":"Career",
+          "link":"/career"
+        },
+        {
+          "name":"Media",
+          "link":"/media"
+        },
+        {
+          "name":"Contact Us",
+          "link":"/contact"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "section":"Languages",
+      "data": [
+        {
+          "name":"Java",
+          "link":"/courses/java"
+        },
+        {
+          "name":"Python",
+          "link":"/courses/python"
+        },
+        {
+          "name":"c++",
+          "link":"/courses/c-plus-plus"
+        },
+        {
+          "name":"Javascript",
+          "link":"/courses/javascript"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "section":"Web Development",
+      "data": [
+        {
+          "name":"c++",
+          "link":"/courses/c-plus-plus"
+        },
+        {
+          "name":"Javascript",
+          "link":"/courses/javascript"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "section":"DSA Concept",
+      "data" : [
+        {
+        
+          "name":"",
+          "link":""
+        },
+        {
+          "name":"",
+          "link":""
+        }
+      ]
+    }
+  ]
+]

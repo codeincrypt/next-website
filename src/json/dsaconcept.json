@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Data Structures",
+    "slug":"dsa/"
+  },
+  {
+    "name":"Arrays",
+    "slug":"dsa/arrays"
+  },
+  {
+    "name":"Strings",
+    "slug":"dsa/strings"
+  },
+  {
+    "name":"Linked List",
+    "slug":"javascript"
+  },
+  {
+    "name":"Algorithms",
+    "slug":"php"
+  }
+]

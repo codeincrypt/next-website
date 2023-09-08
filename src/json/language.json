@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Java",
+    "slug":"java"
+  },
+  {
+    "name":"Python",
+    "slug":"python"
+  },
+  {
+    "name":"c++",
+    "slug":"c-plus-plus"
+  },
+  {
+    "name":"Javascript",
+    "slug":"javascript"
+  },
+  {
+    "name":"PHP",
+    "slug":"php"
+  }
+]

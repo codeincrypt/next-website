@@ -1,0 +1,38 @@
+[
+  {
+    "id":"1",
+    "name":"Data Structures & Algorithms",
+    "slug":"data-structures-and-algorithms",
+    "image":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230706095706/intro-data-structure-%E2%80%93-1.png"
+  },
+  {
+    "id":"2",
+    "name":"System Design",
+    "slug":"system-design",
+    "image":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210713211702/System-Design-Tutorial.png"
+  },
+  {
+    "id":"3",
+    "name":"Web Development",
+    "slug":"web-development",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/py-dev-django-thumbnail.png?v=19608"
+  },
+  {
+    "id":"4",
+    "name":"Machine Learning",
+    "slug":"machine-learning",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+  },
+  {
+    "id":"5",
+    "name":"Data Science",
+    "slug":"data-science",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+  },
+  {
+    "id":"6",
+    "name":"DevOps",
+    "slug":"devops",
+    "image":"https://media.geeksforgeeks.org/wp-content/uploads/20230506112814/C-Programming-Language.png"
+  }
+]
