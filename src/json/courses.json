@@ -1,0 +1,22 @@
+[
+  {
+    "id":"1",
+    "name":"Data Structures & Algorithms in JavaScript",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/data-structures-and-algorithms-in-javascript-thumbnail.png?v=19608"
+  },
+  {
+    "id":"2",
+    "name":"DevOps Engineering - Planning to Production",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/devops-live-thumbnail.png?v=19608"
+  },
+  {
+    "id":"3",
+    "name":"Python Backend Development with Django",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/py-dev-django-thumbnail.png?v=19608"
+  },
+  {
+    "id":"4",
+    "name":"Full Stack Development with React & Node JS",
+    "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+  }
+]

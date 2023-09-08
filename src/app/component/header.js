@@ -1,28 +1,55 @@
+import Link from "next/link";
+import Logo from "../../../public/assets/gfg-gg-logo.svg";
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg bg-light">
+      <div className="container-fluid">
+        <Link className="navbar-brand" href="/">
+          <Image
+            src={Logo}
+            alt="W3 School"
+            width="45"
+            class="d-inline-block align-text-top"
+          />
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" href="/tutorials">
+                Tutorials
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+            <li className="nav-item">
+            <Link className="nav-link" href="/courses">
+                Courses
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+            <li className="nav-item">
+              <Link className="nav-link" href="/contests">
+                Contests
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+            <li className="nav-item">
+              <Link className="nav-link" href="/practice">
+                Practice
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  )
+  );
 }
