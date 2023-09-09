@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Logo from "../../../public/assets/gfg-gg-logo.svg";
+import Logo from "../../../../public/assets/gfg-gg-logo.svg";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
-      <div className="container-fluid">
+      <div className="container">
         <Link className="navbar-brand" href="/">
           <Image
             src={Logo}
@@ -26,28 +26,43 @@ export default function Home() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
+          <ul className="navbar-nav me-auto">
+            <li className="nav-item mx-2">
               <Link className="nav-link" href="/tutorials">
                 Tutorials
               </Link>
             </li>
-            <li className="nav-item">
-            <Link className="nav-link" href="/courses">
+            <li className="nav-item mx-2">
+              <Link className="nav-link" href="/courses">
                 Courses
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <Link className="nav-link" href="/contests">
                 Contests
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <Link className="nav-link" href="/practice">
                 Practice
               </Link>
             </li>
           </ul>
+
+          <form class="d-flex" role="search">
+            <ul className="navbar-nav me-auto">
+              <li className="nav-item mx-2">
+                <Link className="nav-link" href="/user/profile">
+                  Welcome, Amit
+                </Link>
+              </li>
+              <li className="nav-item mx-2">
+                <Link className="nav-link" href="/login">
+                  Logout
+                </Link>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
     </nav>

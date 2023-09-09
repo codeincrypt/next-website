@@ -15,24 +15,24 @@
     "id":"3",
     "name":"Web Development",
     "slug":"web-development",
-    "image":"https://media.geeksforgeeks.org/img-practice/banner/py-dev-django-thumbnail.png?v=19608"
+    "image":"https://www.creativeitinstitute.com/images/course/course_1663052056.jpg"
   },
   {
     "id":"4",
     "name":"Machine Learning",
     "slug":"machine-learning",
-    "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeU5F5mOXZO6i3_H4OQj0AvW1IXn5dm-oanG9SvJWNjgv8iB5R7s4baDjHoPmLb2E2XfE&usqp=CAU"
   },
   {
     "id":"5",
     "name":"Data Science",
     "slug":"data-science",
-    "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+    "image":"https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/09/11134058/What-is-data-science-2.jpg"
   },
   {
     "id":"6",
     "name":"DevOps",
     "slug":"devops",
-    "image":"https://media.geeksforgeeks.org/wp-content/uploads/20230506112814/C-Programming-Language.png"
+    "image":"https://www.qentelli.com/sites/default/files/2021-04/devops-tool-part-2.jpg"
   }
 ]

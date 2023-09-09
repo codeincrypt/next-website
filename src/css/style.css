@@ -28,3 +28,10 @@ footer {
   background-color: #111111;
   color: #eeeeee;
 }
+.login-card {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.login-logo {
+  height: 60px;
+}

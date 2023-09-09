@@ -1,7 +1,7 @@
 export default function Profile() {
   return (
-    <main>
+    <div className="col-lg-12">
       <h1>Profile</h1>
-    </main>
+    </div>
   )
 }

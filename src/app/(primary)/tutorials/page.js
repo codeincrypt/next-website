@@ -1,7 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
-import tutorialsdata from "../../json/tutorials.json";
+import tutorialsdata from "../../../json/tutorials.json";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Tutorials",
+  description: "Tutorials",
+};
+
 export default function Tutorials() {
   const [datalist, setDatalist] = useState([]);
   const fetchData = async () => {
@@ -32,6 +38,7 @@ export default function Tutorials() {
                     <img
                       src={item.image}
                       class="card-img-top"
+                      style={{height:"160px"}}
                       alt="Python Backend Development with Django"
                     />
                     <div class="card-body">
