@@ -1,0 +1,27 @@
+.userbody {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #F0F3F5;
+  margin-bottom: 0px !important;
+  border: 0;
+}
+
+.leftbar_data .leftbar_option {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #303030;
+  border: 0;
+}
+
+.highlightOption {
+  color: #2f8d46 !important;
+  background-color: #e2f8e3 !important;
+}
+.leftbar_data .leftbar_option:hover {
+  color: #2f8d46 !important;
+  background-color: #e2f8e3 !important;
+}

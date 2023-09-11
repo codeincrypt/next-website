@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "name": "David Willer",
+    "email": "david@davidwiller.com",
+    "phone": "9523510235",
+    "github": "codeincrypt"
+  },
+  "courses": [
+    {
+      "id":"1",
+      "courseid":"1",
+      "expires": "unlimited"
+    },
+    {
+      "id":"1",
+      "courseid":"1",
+      "expires": "unlimited"
+    }
+  ]
+}

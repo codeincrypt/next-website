@@ -1,9 +1,14 @@
 "use client";
-import Link from "next/link";
-import "./../import.css";
 import Head from "next/head";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Register() {
+  const router = useRouter();
+  const handleClick = () => {
+    router.push("/user/dashboard");
+  };
+  
   return (
     <div className="container">
       <Head>
@@ -35,7 +40,7 @@ export default function Register() {
                 placeholder="Password"
               />
               <div className="d-grid mt-3">
-                <button className="btn btn-success btn-block">Sign Up</button>
+                <button className="btn btn-success btn-block" onClick={handleClick}>Sign Up</button>
               </div>
               <p className="mt-3">
                 Already have an account?{" "}

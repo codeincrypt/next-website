@@ -8,7 +8,7 @@ import "./../import.css";
 export default function Login() {
   const router = useRouter();
   const handleClick = () => {
-    router.push("/dashboard");
+    router.push("/user/dashboard");
   };
 
   return (
