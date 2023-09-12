@@ -5,16 +5,38 @@
     "phone": "9523510235",
     "github": "codeincrypt"
   },
-  "courses": [
+  "enrolledCourse": [
     {
-      "id":"1",
-      "courseid":"1",
-      "expires": "unlimited"
+      "id":"2",
+      "name":"DevOps Engineering - Planning to Production",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/devops-live-thumbnail.png?v=19608"
     },
     {
-      "id":"1",
-      "courseid":"1",
-      "expires": "unlimited"
+      "id":"3",
+      "name":"Python Backend Development with Django",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/py-dev-django-thumbnail.png?v=19608"
+    },
+    {
+      "id":"4",
+      "name":"Full Stack Development with React & Node JS",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
+    }
+  ],
+  "registeredCourse": [
+    {
+      "id":"2",
+      "name":"DevOps Engineering - Planning to Production",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/devops-live-thumbnail.png?v=19608"
+    },
+    {
+      "id":"3",
+      "name":"Python Backend Development with Django",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/py-dev-django-thumbnail.png?v=19608"
+    },
+    {
+      "id":"4",
+      "name":"Full Stack Development with React & Node JS",
+      "image":"https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19608"
     }
   ]
 }

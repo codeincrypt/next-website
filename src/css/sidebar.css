@@ -5,6 +5,9 @@
   margin-bottom: 0px !important;
   border: 0;
 }
+.leftbar_data a {
+  text-decoration: none;
+}
 
 .leftbar_data .leftbar_option {
   display: flex;

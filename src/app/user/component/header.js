@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Logo from "../../../../public/assets/gfg-gg-logo.svg";
 import Image from "next/image";
-import { BiUser } from "react-icons/bi";
+import { BiUser, BiBookmarkAltMinus } from "react-icons/bi";
+import { PiSignOutBold } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -27,25 +28,23 @@ export default function Home() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav me-auto">
-            
-          </ul>
+          <ul className="navbar-nav me-auto"></ul>
 
           <form class="d-flex" role="search">
             <ul className="navbar-nav me-auto">
               <li className="nav-item mx-2">
-                <Link className="nav-link" href="/user/profile">
+                <Link className="nav-link text-lg" title="Profile" href="/user/profile">
                   <BiUser />
                 </Link>
               </li>
               <li className="nav-item mx-2">
-                <Link className="nav-link" href="/user/courses">
-                  My Courses
+                <Link className="nav-link text-lg" title="My Courses" href="/user/courses">
+                  <BiBookmarkAltMinus />
                 </Link>
               </li>
               <li className="nav-item mx-2">
-                <Link className="nav-link" href="/login">
-                  Logout
+                <Link className="nav-link text-lg" title="Logout" href="/login">
+                  <PiSignOutBold />
                 </Link>
               </li>
             </ul>
