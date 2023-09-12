@@ -1,9 +1,11 @@
 {
   "profile": {
     "name": "David Willer",
+    "username": "codeincrypt",
     "email": "david@davidwiller.com",
     "phone": "9523510235",
-    "github": "codeincrypt"
+    "github": "codeincrypt",
+    "rank": "999"
   },
   "enrolledCourse": [
     {

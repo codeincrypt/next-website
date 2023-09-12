@@ -1,22 +1,32 @@
 [
   {
     "name":"Java",
-    "slug":"java"
+    "slug":"java",
+    "logo":"https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png"
   },
   {
     "name":"Python",
-    "slug":"python"
+    "slug":"python",
+    "logo":"https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png"
   },
   {
     "name":"c++",
-    "slug":"c-plus-plus"
+    "slug":"c-plus-plus",
+    "logo":"https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png"
+  },
+  {
+    "name":"C",
+    "slug":"c",
+    "logo":"https://seeklogo.com/images/C/c-logo-672525892C-seeklogo.com.png"
   },
   {
     "name":"Javascript",
-    "slug":"javascript"
+    "slug":"javascript",
+    "logo":"https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png"
   },
   {
     "name":"PHP",
-    "slug":"php"
+    "slug":"php",
+    "logo":"https://seeklogo.com/images/P/php-logo-DC4A01DBB6-seeklogo.com.png"
   }
 ]

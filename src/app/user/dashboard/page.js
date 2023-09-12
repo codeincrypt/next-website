@@ -1,9 +1,22 @@
-export const metadata = {
-  title: "Dashboard",
-  description: "Dashboard",
-};
+"use client";
+import { useState, useEffect } from "react";
+import users from "../../../json/user.json";
 
 export default function Dashboard() {
+  const [profile, setProfile] = useState({});
+  const [datalist, setDatalist] = useState([]);
+  const fetchData = async () => {
+    const profile = users.profile;
+    const response = users.enrolledCourse;
+    // const data = await response.json();
+    setProfile(profile);
+    setDatalist(response);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div className="col-lg-12">
       <div className="card border-0 p-4">
@@ -16,9 +29,10 @@ export default function Dashboard() {
               alt="codeincrypt"
             />
 
-            <h2 className="mt-3">codeincrypt</h2>
+            <h2 className="mt-3 text-success">{profile.name}</h2>
+            <h6 className="">{profile.username}</h6>
             <h3 className="mt-2">
-              444 <span className="text-muted small">Rank</span>{" "}
+              {profile.rank} <span className="text-muted small">Rank</span>{" "}
             </h3>
           </div>
           <div className="col-lg-4"></div>

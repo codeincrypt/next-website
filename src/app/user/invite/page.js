@@ -4,7 +4,7 @@ export default function Invite() {
       <div className="card border-0 p-4">
         <div className="row justify-content-center">
           <div className="col-lg-5">
-            <h2 className="mt-5">
+            <h2 className="my-5">
               Invite your friends to join GeeksforGeeks family with you.
             </h2>
             <p>Your special invite URL</p>
@@ -12,7 +12,7 @@ export default function Invite() {
               <input
                 type="text"
                 className="form-control"
-                value="https://auth.geeksforgeeks.org/invite/ztytl3b2/"
+                value="https://auth.geeksforgeeks.org/invite/ztytl3b2/" onChange={console.log('copy karo')}
               />
               <button
                 class="btn btn-success"

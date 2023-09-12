@@ -35,3 +35,7 @@ footer {
 .login-logo {
   height: 60px;
 }
+.cardslink a {
+  text-decoration: none;
+  color: #111111;
+}

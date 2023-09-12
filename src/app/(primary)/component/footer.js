@@ -31,7 +31,7 @@ export default function Footer() {
                 alt="gfg logo"
               />
 
-              <p className="mt-3 small text-muted">Creating a dummy geeksforgeeks website can be a valuable exercise for learning web development, UI/UX design, and Next Js front-end technologies. However, always be mindful of legal and ethical considerations when imitating established brands like geeksforgeeks.</p>
+              <p className="mt-3 small text-muted">Created a dummy geeksforgeeks website can be a valuable exercise for learning web development, UI/UX design, and Next Js front-end technologies. However, always be mindful of legal and ethical considerations when imitating established brands like geeksforgeeks.</p>
             </div>
 
             <div className="col-6 col-md-2 mb-3">
@@ -67,7 +67,7 @@ export default function Footer() {
 
             <div className="col-6 col-md-2 mb-3">
               <h5>Language</h5>
-              {languageData.map((item, index) => (
+              {languageData.slice(0,5).map((item, index) => (
                 <ul className="nav flex-column" key={index}>
                   <li className="nav-item mb-2">
                     <a
@@ -83,7 +83,7 @@ export default function Footer() {
 
             <div className="col-6 col-md-2 mb-3">
               <h5>DSA Concept</h5>
-              {dsaData.map((item, index) => (
+              {dsaData.slice(0,5).map((item, index) => (
                 <ul className="nav flex-column" key={index}>
                   <li className="nav-item mb-2">
                     <a
@@ -99,7 +99,7 @@ export default function Footer() {
 
             <div className="col-6 col-md-2 mb-3">
               <h5>Web Development</h5>
-              {webdevData.map((item, index) => (
+              {webdevData.slice(0,5).map((item, index) => (
                 <ul className="nav flex-column" key={index}>
                   <li className="nav-item mb-2">
                     <a
