@@ -2,7 +2,7 @@
   font-size: 13px;
   line-height: 1.5;
   /* border: none; */
-  color: #ddd;
+  color: #111111;
   background: #eee;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%2720%27 height=%2720%27 viewBox=%270 0 20 20%27><path fill=%27%23838D99%27 d=%27M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z%27></path></svg>");
   background-repeat: no-repeat;
@@ -11,12 +11,12 @@
   background-size: 20px 17px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
   border-radius: 5px;
-  width: 300px;
+  width: 100%;
   padding: 0.7em 1em 0.7em 3em;
 }
 
 .input-elevated::placeholder {
-  color: #999;
+  color: #666;
 }
 
 .input-elevated:focus {

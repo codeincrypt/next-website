@@ -5,7 +5,15 @@
     "email": "david@davidwiller.com",
     "phone": "9523510235",
     "github": "codeincrypt",
-    "rank": "999"
+    "rank": "999",
+    "address": {
+      "street": "Hoeger Mall",
+      "district": "Apt. 692",
+      "city": "South Elvis",
+      "state": "South Elvis",
+      "country": "USA",
+      "zipcode": "53919-4257"
+    }
   },
   "enrolledCourse": [
     {

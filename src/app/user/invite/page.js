@@ -15,7 +15,7 @@ export default function Invite() {
                 value="https://auth.geeksforgeeks.org/invite/ztytl3b2/" onChange={console.log('copy karo')}
               />
               <button
-                class="btn btn-success"
+                className="btn btn-success"
                 type="button"
                 id="button-addon2"
               >

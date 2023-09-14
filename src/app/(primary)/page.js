@@ -31,16 +31,16 @@ export default function Home() {
             {languageData.slice(0, 4).map((item, index) => (
               <div className="col-lg-3 cardslink" key={index}>
                 <Link href={`/language/${item.slug}`}>
-                  <div class="card mb-3">
+                  <div className="card mb-3">
                     <img
                       src={item.logo}
-                      class="p-4"
+                      className="p-4"
                       style={{height:"200px"}}
                       alt="Python Backend Development with Django"
                     />
-                    <div class="card-body">
-                      <h5 class="card-title">{item.name}</h5>
-                      <p class="card-text">Learn {item.name} </p>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">Learn {item.name} </p>
                     </div>
                   </div>
                 </Link>
@@ -57,16 +57,16 @@ export default function Home() {
             {tutorialData.slice(0, 3).map((item, index) => (
               <div className="col-lg-4 cardslink" key={index}>
                 <Link href={`/tutorials/${item.slug}`}>
-                  <div class="card mb-3">
+                  <div className="card mb-3">
                     <img
                       src={item.image}
-                      class="card-img-top"
+                      className="card-img-top"
                       style={{height:"160px"}}
                       alt={item.name}
                     />
-                    <div class="card-body">
-                      <h5 class="card-title">{item.name}</h5>
-                      <p class="card-text">Learn new</p>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">Learn new</p>
                     </div>
                   </div>
                 </Link>
@@ -83,15 +83,15 @@ export default function Home() {
             {coursesData.slice(0, 3).map((item, index) => (
               <div className="col-lg-4 cardslink" key={index}>
                 <Link href={`/courses/${item.slug}`}>
-                  <div class="card mb-3">
+                  <div className="card mb-3">
                     <img
                       src={item.image}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt={item.name}
                     />
-                    <div class="card-body">
-                      <h5 class="card-title">{item.name}</h5>
-                      <p class="card-text">Beginner to Advance</p>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">Beginner to Advance</p>
                     </div>
                   </div>
                 </Link>

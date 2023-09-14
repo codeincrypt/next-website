@@ -1,0 +1,126 @@
+[
+  {
+    "id":"1",
+    "name":"Data Structures & Algorithms",
+    "language":"Java",
+    "languageId":"java",
+    "slug":"Data Structures",
+    "marks":"02",
+    "data":[
+      {
+        "id":"1",
+        "answerType":"S",
+        "question":"Arrays in java are",
+        "answer":[
+          {
+            "id":"1","answer":"Object References"
+          },
+          {
+            "id":"2","answer":"objects"
+          },
+          {
+            "id":"3","answer":"Primitive data types"
+          },
+          {
+            "id":"4","answer":"None"
+          }
+        ]
+      },
+      {
+        "id":"2",
+        "answerType":"S",
+        "question":"Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.",
+        "answer":[
+          {
+            "id":"1","answer":"final"
+          },
+          {
+            "id":"2","answer":"static"
+          },
+          {
+            "id":"3","answer":"volatile"
+          },
+          {
+            "id":"4","answer":"abstract"
+          }
+        ]
+      },
+      {
+        "id":"3",
+        "answerType":"M",
+        "question":"In which of the following is toString() method defined?",
+        "answer":[
+          {
+            "id":"1","answer":"java.lang.Object"
+          },
+          {
+            "id":"2","answer":"java.lang.String"
+          },
+          {
+            "id":"3","answer":"java.lang.util"
+          },
+          {
+            "id":"4","answer":"none"
+          }
+        ]
+      },
+      {
+        "id":"4",
+        "answerType":"S",
+        "question":"Arrays in java are",
+        "answer":[
+          {
+            "id":"1","answer":"Object References"
+          },
+          {
+            "id":"2","answer":"objects"
+          },
+          {
+            "id":"3","answer":"Primitive data types"
+          },
+          {
+            "id":"4","answer":"None"
+          }
+        ]
+      },
+      {
+        "id":"5",
+        "answerType":"S",
+        "question":"Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.",
+        "answer":[
+          {
+            "id":"1","answer":"final"
+          },
+          {
+            "id":"2","answer":"static"
+          },
+          {
+            "id":"3","answer":"volatile"
+          },
+          {
+            "id":"4","answer":"abstract"
+          }
+        ]
+      },
+      {
+        "id":"6",
+        "answerType":"M",
+        "question":"In which of the following is toString() method defined?",
+        "answer":[
+          {
+            "id":"1","answer":"java.lang.Object"
+          },
+          {
+            "id":"2","answer":"java.lang.String"
+          },
+          {
+            "id":"3","answer":"java.lang.util"
+          },
+          {
+            "id":"4","answer":"none"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -11,7 +11,7 @@ export default function Home() {
             src={Logo}
             alt="W3 School"
             width="45"
-            class="d-inline-block align-text-top"
+            className="d-inline-block align-text-top"
           />
         </Link>
         <button
@@ -49,7 +49,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <form class="d-flex" role="search">
+          <form className="d-flex" role="search">
             <ul className="navbar-nav me-auto">
               <li className="nav-item mx-2">
                 <Link className="nav-link" href="/login">

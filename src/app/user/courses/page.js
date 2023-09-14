@@ -30,15 +30,15 @@ export default function Courses() {
             <div className="row">
               {datalist.map((item, index) => (
                 <div className="col-lg-4" key={index}>
-                  <div class="card mb-3">
+                  <div className="card mb-3">
                     <img
                       src={item.image}
-                      class="card-img-top"
+                      className="card-img-top"
                       alt="Python Backend Development with Django"
                     />
-                    <div class="card-body">
-                      <h5 class="card-title">{item.name}</h5>
-                      <p class="card-text">Beginner to Advance</p>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.name}</h5>
+                      <p className="card-text">Beginner to Advance</p>
                       <div className="d-grid mt-3">
                         <button className="btn btn-outline-success text-sm">
                           Continue learning
