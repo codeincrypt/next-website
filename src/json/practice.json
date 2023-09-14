@@ -10,6 +10,7 @@
       {
         "id":"1",
         "answerType":"S",
+        "submit":"0",
         "question":"Arrays in java are",
         "answer":[
           {
@@ -29,6 +30,7 @@
       {
         "id":"2",
         "answerType":"S",
+        "submit":"0",
         "question":"Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.",
         "answer":[
           {
@@ -48,6 +50,7 @@
       {
         "id":"3",
         "answerType":"M",
+        "submit":"0",
         "question":"In which of the following is toString() method defined?",
         "answer":[
           {
@@ -67,6 +70,7 @@
       {
         "id":"4",
         "answerType":"S",
+        "submit":"0",
         "question":"Arrays in java are",
         "answer":[
           {
@@ -86,6 +90,7 @@
       {
         "id":"5",
         "answerType":"S",
+        "submit":"0",
         "question":"Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.",
         "answer":[
           {
@@ -105,6 +110,7 @@
       {
         "id":"6",
         "answerType":"M",
+        "submit":"0",
         "question":"In which of the following is toString() method defined?",
         "answer":[
           {
