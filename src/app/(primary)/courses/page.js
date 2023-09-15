@@ -2,11 +2,6 @@
 import { useState, useEffect } from "react";
 import courses from "../../../json/courses.json";
 
-export const metadata = {
-  title: "Courses",
-  description: "Courses",
-};
-
 export default function Courses() {
   const [datalist, setDatalist] = useState([]);
   const fetchData = async () => {

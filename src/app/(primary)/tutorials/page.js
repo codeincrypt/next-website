@@ -3,11 +3,6 @@ import { useState, useEffect } from "react";
 import tutorialsdata from "../../../json/tutorials.json";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Tutorials",
-  description: "Tutorials",
-};
-
 export default function Tutorials() {
   const [datalist, setDatalist] = useState([]);
   const fetchData = async () => {
