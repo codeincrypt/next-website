@@ -23,10 +23,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="container-fluid">
       <div className="row justify-content-center mt-4">
         <div className="col-lg-9">
-          <h1>Language</h1>
+          <h2>Language</h2>
           <div className="row">
             {languageData.slice(0, 4).map((item, index) => (
               <div className="col-lg-3 cardslink" key={index}>
@@ -52,7 +52,7 @@ export default function Home() {
 
       <div className="row justify-content-center mt-4">
         <div className="col-lg-9">
-          <h1>Tutorials</h1>
+          <h2>Tutorials</h2>
           <div className="row">
             {tutorialData.slice(0, 3).map((item, index) => (
               <div className="col-lg-4 cardslink" key={index}>
@@ -78,7 +78,7 @@ export default function Home() {
 
       <div className="row justify-content-center mt-4 mb-4">
         <div className="col-lg-9">
-          <h1>Courses</h1>
+          <h2>Courses</h2>
           <div className="row">
             {coursesData.slice(0, 3).map((item, index) => (
               <div className="col-lg-4 cardslink" key={index}>

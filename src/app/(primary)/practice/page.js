@@ -17,19 +17,19 @@ export default function Practice() {
   }, []);
 
   return (
-    <div className="col-lg-12">
+    <div className="container-fluid">
       <div className="row justify-content-center mt-4">
         <div className="col-lg-9">
-          <h1>Practice</h1>
+          <h2>Practice</h2>
           <div className="row">
-            {languageData.slice(0, 4).map((item, index) => (
+            {languageData.map((item, index) => (
               <div className="col-lg-3 cardslink" key={index}>
                 <Link href={`/user/practice/${item.slug}`}>
                   <div className="card mb-3">
                     <img
                       src={item.logo}
                       className="p-4"
-                      style={{height:"200px"}}
+                      style={{height:"240px"}}
                       alt="Python Backend Development with Django"
                     />
                     <div className="card-body">

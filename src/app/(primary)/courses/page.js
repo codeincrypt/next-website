@@ -15,7 +15,7 @@ export default function Courses() {
   }, []);
 
   return (
-    <div>
+    <div className="container-fluid">
       <div className="col-lg-12 text-center py-5">
         <h2>Hello, What Do You Want To Learn?</h2>
         <div className="row justify-content-center">
