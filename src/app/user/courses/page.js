@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import users from "../../../json/user";
+import Link from "next/link";
 
 export default function Courses() {
   const [datalist, setDatalist] = useState([]);
@@ -40,9 +41,9 @@ export default function Courses() {
                       <h5 className="card-title">{item.name}</h5>
                       <p className="card-text">Beginner to Advance</p>
                       <div className="d-grid mt-3">
-                        <button className="btn btn-outline-success text-sm">
+                        <Link href={`/user/courses/${item.name}`} className="btn btn-outline-success text-sm">
                           Continue learning
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
